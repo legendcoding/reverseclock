@@ -6,11 +6,12 @@ import random
 class TestMain(unittest.TestCase):
 
     def test_int_valid(self):
-        self.assertEqual(main.validation("100"), True)
         self.assertEqual(main.validation("10"), True)
         self.assertEqual(main.validation("1"), True)
+        self.assertEqual(main.validation("99"), True)
 
     def test_int_not_valid(self):
+        self.assertEqual(main.validation("100"), False)
         self.assertEqual(main.validation("0"), False)
         self.assertEqual(main.validation("-1"), False)
         self.assertEqual(main.validation("-10"), False)
