@@ -4,7 +4,7 @@ To Build a clock that goes back in time with a given parameter "DECREMENT_BY_SEC
 Below running the program, we have to get into interactive shell of the image.
 1. clone the repo to your local machine
 2. run "docker build -t dockerassignment ." 
-3. run "docker run -it dockerassignment /bin/bash
+3. run "docker run -it dockerassignment /bin/bash"
 4. now you are ready to run the program!
 5. to exit out of shell, type "exit" and press enter
 
