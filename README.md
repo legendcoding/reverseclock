@@ -1,5 +1,7 @@
 Problem Statment:
-To Build a clock that goes back in time with a given parameter "DECREMENT_BY_SECS"
+To Build a clock that goes back in time with a given parameter "DECREMENT_BY_SECS" 
+
+Assuming the input only allows 1-99secs.
 
 Below running the program, we have to get into interactive shell of the image.
 1. clone the repo to your local machine
