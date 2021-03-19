@@ -16,6 +16,7 @@ class TestMain(unittest.TestCase):
         self.assertEqual(main.validation("-1"), False)
         self.assertEqual(main.validation("-10"), False)
         self.assertEqual(main.validation("-100"), False)
+        self.assertEqual(main.validation("9999999999999999999999999999999"), False)
 
     def test_alpha(self):
         self.assertEqual(main.validation("a"), False)
