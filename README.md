@@ -6,7 +6,7 @@ Assuming the input only allows 1-99secs.
 Below running the program, we have to get into interactive shell of the image.
 1. clone the repo to your local machine
 2. run "docker build -t dockerassignment ." 
-3. run "docker run -it dockerassignment /bin/bash
+3. run "docker run -it dockerassignment /bin/bash"
 4. now you are ready to run the program!
 5. to exit out of shell, type "exit" and press enter
 
